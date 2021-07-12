@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">test1</string>
+    <string name="str_enter">welcome</string>
+    <string name="btn_content">CLICK ME</string>
+</resources>
