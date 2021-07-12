@@ -1,3 +1,3 @@
-生成的apk文件位于各工程下：
+生成的apk文件另外存放于Homework-apk文件夹~
 
-app\build\outputs\apk\debug\app-debug.apk
+谢谢学长及老师们的指点！
