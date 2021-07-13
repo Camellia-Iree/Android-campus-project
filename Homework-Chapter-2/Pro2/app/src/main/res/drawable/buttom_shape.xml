@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- 主体背景颜色值 -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#CCAAD9"
+                android:endColor="#88AAFF"
+                android:angle="45"
+                />
+            <!-- 圆角 -->
+            <corners
+                android:radius="40dp" />
+        </shape>
+    </item>
+
+</layer-list>

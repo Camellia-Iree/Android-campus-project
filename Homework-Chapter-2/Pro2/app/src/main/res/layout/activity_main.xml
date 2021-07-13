@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/qq"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="你好呀~请选择你想打开的页面"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_pra"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="界面设计"/>
+
+        <Button
+            android:id="@+id/btn_ret"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="30dp"
+            android:fontFamily="casual"
+            android:text="退出"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_bai"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="casual"
+            android:text="Baidu"/>
+
+        <Button
+            android:id="@+id/btn_cal"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="30dp"
+            android:fontFamily="casual"
+            android:text="Phone"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_bit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="滚动列表  RecyclerView"
+        android:fontFamily="casual"
+        />
+
+</LinearLayout>
