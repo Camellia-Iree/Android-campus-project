@@ -1,6 +1,5 @@
 package com.example.test;
 
-import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +8,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-
 
 /**
  * 使用 ViewPager 和 Fragment 做一个简单版的好友列表界面
@@ -44,12 +42,6 @@ public class test3 extends AppCompatActivity {
             }
         });
         tabLayout.setupWithViewPager(pager);
-
-        // TODO: ex3-1. 添加 ViewPager 和 Fragment 做可滑动界面
-
-
-
-        // TODO: ex3-2, 添加 TabLayout 支持 Tab
     }
 }
 
