@@ -73,6 +73,7 @@ public class PlaceholderFragment extends Fragment {
 
     public void initData(){
 
+        mDataset.clear();
         mDataset.add(new Testdata("小红", "你好  - 刚刚", R.drawable.head0));
         mDataset.add(new Testdata("小蓝", "www  - 15:03", R.drawable.head1));
         mDataset.add(new Testdata("小绿", "阿巴阿巴  -15.01", R.drawable.head2));
