@@ -153,9 +153,7 @@ public class UploadActivity extends AppCompatActivity {
                         coverImageData));
 
         Call<UploadResponse> message = api.submitMessage(STUDENT_ID, "", coverFrom, coverTo, coverContent, coverImage, token);
-        Toast.makeText(UploadActivity.this, "finish call", Toast.LENGTH_SHORT).show();
-        int i = 0;
-        i = 1;
+        // Toast.makeText(UploadActivity.this, "finish call", Toast.LENGTH_SHORT).show();
         message.enqueue(new Callback<UploadResponse>() {
             @Override
             public void onResponse(Call<UploadResponse> call, Response<UploadResponse> response) {
